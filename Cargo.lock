@@ -728,14 +728,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "realtime-rust-chat-app"
-version = "0.1.0"
-dependencies = [
- "rand",
- "rocket",
-]
-
-[[package]]
 name = "redox_syscall"
 version = "0.2.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -878,6 +870,14 @@ dependencies = [
  "time",
  "tokio",
  "uncased",
+]
+
+[[package]]
+name = "rust-realtime-chat-app"
+version = "0.1.0"
+dependencies = [
+ "rand",
+ "rocket",
 ]
 
 [[package]]
